@@ -1,0 +1,10 @@
+streamlit
+
+transformers
+sentence-transformers
+torch
+langchain
+chromadb
+unstructured
+accelerate
+-i https://test.pypi.org/simple/ bitsandbytes
