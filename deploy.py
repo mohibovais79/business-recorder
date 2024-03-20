@@ -57,7 +57,6 @@ sys_prompt = """You are a helpful, respectful and honest  assistant. Always answ
 If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information. """
 
 instruction = """CONTEXT:/n/n {context}/nQuestion: {question}"""
-get_prompt(instruction, sys_prompt)
 
 prompt_template = get_prompt(instruction, sys_prompt)
 
